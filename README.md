@@ -59,7 +59,7 @@ createRoot(document.getElementById("root")!).render(
 )
 ```
 
-Now you can go to your app.tsx or equivalent, and use the ui-component, button so that the user can interact with it:
+Now you can go to your `app.tsx` or equivalent, and use the ui-component, button so that the user can interact with it:
 
 ```tsx
 // app.tsx
@@ -114,9 +114,8 @@ createRoot(document.getElementById("root")!).render(
             settings={{
                 autoConnect: false,
 +                wallets: [
-+
 +                    SolanaWalletAdapterWallets.LedgerWalletAdapter
-                ]
++                ]
             }}
         >
             <App />
