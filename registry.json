@@ -1,0 +1,19 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry.json",
+    "name": "shad-wallet",
+    "homepage": "https://github.com/0x41337/shad-wallet.git",
+    "items": [
+        {
+            "name": "wallet",
+            "type": "registry:block",
+            "title": "Shad wallet",
+            "description": "A Solana wallet UI to easily and robustly connect wallets.",
+            "files": [
+                {
+                    "path": "src/registry/wallet.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        }
+    ]
+}
