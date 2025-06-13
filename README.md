@@ -25,7 +25,7 @@ $ npx shadcn@latest add button dialog dropdown-menu
 **4** Install the wallet component:
 
 ```sh
-$ npx shadcn@latest add https://raw.githubusercontent.com/0x41337/shad-wallet/refs/heads/main/public/r/wallet.json
+$ npx shadcn@latest add https://shad-wallet.vercel.app/r/wallet.json
 ```
 
 ## How to use
